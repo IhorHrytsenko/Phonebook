@@ -1,0 +1,18 @@
+.form {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.form__field,
+.form__button {
+    width: 200px;
+    margin: 5px;
+}
+
+.form__label {
+    margin: 5px;
+    width: 200px;
+}

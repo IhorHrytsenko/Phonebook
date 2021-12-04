@@ -1,0 +1,17 @@
+.reg{
+
+    margin: 10px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;  
+
+}
+
+
+.reg__field{
+
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
