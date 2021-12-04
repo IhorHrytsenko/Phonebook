@@ -1,2 +1,0 @@
-(this.webpackJsonpPhonebook=this.webpackJsonpPhonebook||[]).push([[7],{90:function(n,o,t){"use strict";t.r(o),t.d(o,"default",(function(){return c}));t(0);var e=t(2);function c(){return Object(e.jsx)("h1",{children:"\u041f\u0440\u0438\u0432\u0435\u0435\u0435\u0435\u0435\u0435\u0442!"})}}}]);
-//# sourceMappingURL=7.69998d95.chunk.js.map
