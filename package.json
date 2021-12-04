@@ -1,8 +1,8 @@
 {
-  "name": "phonebook",
+  "name": "Phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ihorhrytsenko.github.io/phonebook",
+  "homepage": "https://ihorhrytsenko.github.io/Phonebook",
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.2",
     "@testing-library/jest-dom": "^5.14.1",
