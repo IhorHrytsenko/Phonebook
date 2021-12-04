@@ -75,9 +75,12 @@ const token = {
         })
     
 
-export default {
+const operationsAuth = {
     registerContacts,
     loginContacts,
     logoutContacts,
     refreshContacts,
 }
+
+
+export default operationsAuth;

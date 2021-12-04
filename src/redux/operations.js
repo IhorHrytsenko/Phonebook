@@ -2,6 +2,8 @@ import axios from 'axios';
 import { createAsyncThunk, createAction } from '@reduxjs/toolkit';
 // import { v4 as uuidv4 } from 'uuid';
 
+
+
 // решение через action
 // const fetchContacts = () => async dispatch => {
 //     dispatch(actions.fetchContactsRequest());
@@ -72,7 +74,7 @@ const fetchContacts = createAsyncThunk(
         'contacts/fetchDeleteContacts', 
         async (id) => {
             try{
-            const {data} = await axios.delete(`https://connections-api.herokuapp.com/contacts/${id}`);
+            await axios.delete(`https://connections-api.herokuapp.com/contacts/${id}`);
             return id;
             }
         catch(error){
@@ -82,11 +84,13 @@ const fetchContacts = createAsyncThunk(
 
 const filterAction = createAction('contact/Filter');
 
-export default {
+
+const operations = {
     fetchContacts, 
     fetchAddContacts,
     fetchDeleteContacts,
     filterAction,
 }
 
+export default operations;
 
